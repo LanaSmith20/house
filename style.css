@@ -125,3 +125,8 @@ text-align: center;
 .aboutus-right img{
   border-radius: 8px;
 }
+footer{
+  text-align: center;
+  border-top: 1px solid black;
+  padding: 10px;
+}
