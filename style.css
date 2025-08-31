@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-x: hidden;
+}
+.collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+}
+.right p:hover {
+  background-color: #0000004e;
+  color: #000;
+}
+.intro-box {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url(image/photo2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.div-button {
+  padding: 8px;
+  border-radius: 50px;
+  background-color: #000;
+}
+.div-button a {
+  text-decoration: none;
+  color: #fff;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 5px;
+}
+
+.box-imgleft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-imgright {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  transition: ease-in;
+}
+.box-imgright:hover{
+ transform: scale(1.1);
+}
+.box-imgleft img {
+  border-radius: 10px;
+}
+.box-imgright img {
+  border-radius: 10px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 16px;
+}
+.content p {
+  font-size: 10px;
+}
+.aboutus{
+  display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+.aboutus-left {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  color: white;
+  border-radius: 8px;
+}
+.aboutus-left h1{
+  color: black;
+text-align: center;
+}
+.aboutus-left p{
+  height: 250px;
+  background-color: black;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.aboutus-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.aboutus-right img{
+  border-radius: 8px;
+}
